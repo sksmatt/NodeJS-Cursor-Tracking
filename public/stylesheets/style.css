@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.friend {
+  width: 16px;
+  height: 24px;
+  background: url("../images/cursor.png");
+  position: absolute;
+  z-index: 101;
+  pointer-events: none;
+}
+.friend .name {
+  display: inline;
+  position: relative;
+  left: 16px;
+  top: 8px;
+  pointer-events: none;
+  color: #fff;
+  text-shadow: none;
+  background: #000;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  white-space: nowrap;
+  padding: 1px;
+  font-size: 10px;
+}
